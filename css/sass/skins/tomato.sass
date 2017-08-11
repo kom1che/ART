@@ -3,7 +3,7 @@
 $color: #FF6347 //Theme skin
 $text_color: #888
 $main_color: #222
-$bg_light: #FAFAFA
+$bg_light: #e7e7e7	//#FAFAFA
 
 @mixin kerning($kerning)
 	letter-spacing: $kerning + px
@@ -83,3 +83,31 @@ section
 .personal_header
 	+kerning(2)
 	margin-bottom: 30px
+
+.service_container
+	h3
+		color: $main_color
+		+kerning(1)
+		font-size: 16px
+		font-weight: 400
+
+.service_description
+	p
+		color: $main_color
+
+.s_project
+	li
+		color: $text_color
+		+kerning(2)
+	li.active
+		color: #000
+		border-bottom: 1px solid $color
+
+.portfolio_item .port_item_cont
+	a
+		border-color: $color
+		color: $color
+
+.port_desr
+	p
+		color: $text_color

@@ -26,7 +26,7 @@ body .main_footer {
   background-color: #222; }
 
 .bg_light {
-  background-color: #FAFAFA; }
+  background-color: #e7e7e7; }
 
 .bg_dark {
   background-color: #222;
@@ -37,7 +37,7 @@ body .main_footer {
     color: #color; }
 
 svg path {
-  fill: #FAFAFA; }
+  fill: #e7e7e7; }
 
 .mnu_wrap {
   background-color: #222; }
@@ -48,7 +48,7 @@ svg path {
   letter-spacing: 4px; }
 
 .top-text p {
-  color: #FAFAFA;
+  color: #e7e7e7;
   letter-spacing: 5px; }
 
 .s_descr {
@@ -58,17 +58,40 @@ svg path {
 
 section h3 {
   letter-spacing: 3px;
-  color: #FAFAFA; }
+  color: #e7e7e7; }
 section p {
-  color: #FAFAFA; }
+  color: #e7e7e7; }
 
 .s_about_me p:nth-child(even) {
   color: #FF6347; }
 .s_about_me li {
-  color: #FAFAFA; }
+  color: #e7e7e7; }
 
 .personal_header {
   letter-spacing: 2px;
   margin-bottom: 30px; }
+
+.service_container h3 {
+  color: #222;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 400; }
+
+.service_description p {
+  color: #222; }
+
+.s_project li {
+  color: #888;
+  letter-spacing: 2px; }
+.s_project li.active {
+  color: #000;
+  border-bottom: 1px solid #FF6347; }
+
+.portfolio_item .port_item_cont a {
+  border-color: #FF6347;
+  color: #FF6347; }
+
+.port_desr p {
+  color: #888; }
 
 /*# sourceMappingURL=tomato.css.map */
