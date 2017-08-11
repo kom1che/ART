@@ -94,4 +94,28 @@ section p {
 .port_desr p {
   color: #888; }
 
+section .contact_box h3 {
+  color: #222; }
+section .contact_box p {
+  color: #888; }
+
+.contact_box {
+  color: #FF6347; }
+
+.text-danger {
+  color: #FF6347; }
+
+form input:focus,
+form textarea:focus {
+  border: 1px solid #FF6347; }
+form input,
+form textarea {
+  letter-spacing: 2px; }
+form button {
+  background-color: #FF6347;
+  letter-spacing: 2px; }
+form .form-group {
+  letter-spacing: 2px;
+  color: #888; }
+
 /*# sourceMappingURL=tomato.css.map */

@@ -19,6 +19,8 @@ $(document).ready(function() {
 	$(".animation_3").animated("fadeInRight", "fadeOutRight");
 	$(".right .service_image").animated("fadeInRight", "fadeOutRight");
 	$(".left").animated("fadeInLeft", "fadeOutLeft");
+	$(".form_box").animated("fadeInRight", "fadeOutRight");
+	$(".con_box").animated("fadeInLeft", "fadeOutLeft");
 
 	function heightDetection(){
 		$(".main_head").css("height", $(window).height());
@@ -61,6 +63,10 @@ $(document).ready(function() {
 		$(this).find("a").attr("href", "#work_" + i);
 		$(this).find(".port_desr").attr("id", "work_" + i);
 	}); 
+	
+	$("input,select,textarea").not("[type=submit]").jqBootstrapValidation();
+
+	$(".top-mnu ul a").mPageScroll2id();
 
 });
 

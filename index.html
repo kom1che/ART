@@ -47,10 +47,10 @@
 					</div>
 					<nav class="top-mnu">
 						<ul>
-							<li><a href="#">About Service</a></li>
-							<li><a href="#">Projects</a></li>
-							<li><a href="#">About Me</a></li>
-							<li><a href="#">Contacts</a></li>
+							<li><a href="#about_ser">About Service</a></li>
+							<li><a href="#project">Projects</a></li>
+							<li><a href="#about_me">About Me</a></li>
+							<li><a href="#contacts">Contacts</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -68,6 +68,7 @@
 			</div>
 		</div>
 	</header>
+
 	<section id="about_ser" class="s_about">
 		<div class="section-header">
 			<h2>About Service</h2>
@@ -130,7 +131,6 @@
 								</div>
 							</div>
 						</div>
-
 						<div class="mix col-md-6 col-sm-6 col-xs-6 portfolio_item category-2">
 							<img src="img/portfolio/SimFRA_v2.jpg" alt="Alt">
 							<div class="port_item_cont">
@@ -149,12 +149,12 @@
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+
 	<section id="about_me" class="s_about_me bg_dark">
 		<div class="section-header">
 			<h2>About Me</h2>
@@ -198,7 +198,8 @@
 			</div>
 		</div>
 	</section>
-	<section id="contacts" class="s_contacts bg_light">
+
+	<section id="contacts" class="s_contacts">
 		<div class="section-header">
 			<h2>Contacts</h2>
 			<div class="s_descr_wrap">
@@ -208,7 +209,45 @@
 		<div class="section-content">
 			<div class="container">
 				<div class="row">
-					sdfsdfsfsfdsfsf
+					<div class="col-md-6 c0l-sm-6 con_box">
+						<div class="contact_box">
+							<div class="contacts_icon icon-basic-geolocalize-01"></div>
+							<h3>Address:</h3>
+							<p>Lorem Ipsum is simply dummy text </p>
+						</div>
+						<div class="contact_box">
+							<div class="contacts_icon icon-basic-smartphone"></div>
+							<h3>Telephone:</h3>
+							<p>+38 (097) 2860772</p>
+						</div>
+						<div class="contact_box">
+							<div class="contacts_icon icon-basic-webpage-img-txt"></div>
+							<h3>Web-site:</h3>
+							<p><a href="www.komche.com" target="blanc">www.komche.com</a></p>
+						</div>
+					</div>
+					<div class="col-md-6 c0l-sm-6 form_box">
+						<form action="http://formspree.io/zhikharevtim@gmail.com"" class="main_form" novalidate target="blank" method="POST">
+							<label class="form-group control-group">
+								<span class="color_element">*</span> Your Name:
+								<input type="text" name="name" placeholder="Your Name" data-validation-required-message="You didn't put the name" required />
+								<span class="help-block text-danger"></span>
+							</label>
+							<div class="control-group form-group">
+						    <label class="control-label"><span class="color_element">*</span>Email address</label>
+						    <label class="controls">
+						      <input type="email" name="email" placeholder="Your Email" data-validation-required-message="It is important field" data-validation-email-message="Your email is incorrect" required />
+						      <span class="help-block text-danger"></span>
+						    </label>
+  						</div>
+							<label class="form-group control-group">
+								<span class="color_element">*</span> Your Message
+								<textarea name="message" placeholder="Your Message" data-validation-required-message="You didn't put the message" required ></textarea>
+								<span class="help-block text-danger"></span>
+							</label>
+							<button>Send</button>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -256,6 +295,7 @@
 	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
 	<script src="libs/waypoints/waypoints.min.js"></script>
 	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
 	<script src="js/common.js"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->

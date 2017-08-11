@@ -111,3 +111,29 @@ section
 .port_desr
 	p
 		color: $text_color
+
+section .contact_box 
+	h3
+		color: $main_color
+	p
+		color: $text_color
+
+.contact_box
+	color: $color
+
+.text-danger
+	color: $color 
+
+form 
+	input:focus,
+	textarea:focus
+		border: 1px solid $color 
+	input,
+	textarea
+		+kerning(2)
+	button
+		background-color: $color
+		+kerning(2)
+	.form-group
+		+kerning(2)
+		color: $text_color
